@@ -1,3 +1,3 @@
-create database Sterrenstelsel; 
-use Sterrenstelsel;
-create table planeten;
+use sterrenstelsel;
+insert into planeten (naam) values ('Mars'), ('Sun'), ('Mercurius'), ('Venus'), ('Saturnus'), ('Jupiter');
+select * from planeten;
